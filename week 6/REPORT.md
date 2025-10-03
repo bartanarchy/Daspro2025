@@ -1,14 +1,12 @@
-# Project Title
+# Question from jobsheet 4 week 6
 
-Simple overview of use/purpose.
+1. Check if the Test.txt file exists on GitHub. If not, why not?
+2. Explain the functions of Add, Commit, and Push.
 
-## Description
+# Answer
 
-An in-depth paragraph about your project and overview of use.
-
-## Getting Started
-
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+1. theres no Test.txt because we didnt commit and push the file to our repository, thats why the test.txt didnt exist on our github
+2. The function of Add, Commit, and Push in Git is that
+   Add   : selects the changes you want to save
+   Commit: records those changes as a new version in your local repository with a message
+   Push  : uploads that version from your computer to GitHub so it can be stored or shared online
