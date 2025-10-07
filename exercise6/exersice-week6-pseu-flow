@@ -1,1 +1,29 @@
+## PSEUDOCODE 1
+BEGIN
+    INPUT hasStudentID, isRegisteredOnline
+
+    IF hasStudentID = TRUE OR isRegisteredOnline = TRUE THEN
+        DISPLAY "Allow Entry"
+    ELSE
+        DISPLAY "Entry Denied"
+    ENDIF
+END
+
+## PSEUDOCODE 2
+BEGIN
+    INPUT userType
+
+    IF userType = "lecturer" THEN
+        DISPLAY "WiFi access granted (lecturer)"
+    ELSE IF userType = "student" THEN
+        INPUT credits
+        IF credits >= 12 THEN
+            DISPLAY "WiFi access granted (active student)"
+        ELSE
+            DISPLAY "Access denied, credits less than 12"
+        ENDIF
+    ELSE
+        DISPLAY "Access denied"
+    ENDIF
+END
 
